@@ -17,16 +17,22 @@ We provide a list of adult keywords used in the paper to filter adult incoming q
 We preliminary created a keyword set as the union of the search keywords from professional adult websites along with the list of adult performers published by movie production companies. 
 To extend the coverage also to blogs that are reached predominantly by Spanish queries (the second most used language in US), we also translated to Spanish the initial set of keywords.
 From this initial set we manually extracted two dictionaries of respectively 5152 (**file1**) and 5283 (**file2**) search keywords (mono-grams, bi-grams, multi-grams), which were used to filter queries in the query log following two strategies: 
-1) exact match, selecting those queries in the query log which match exactly one search keywords in the first dictionary, 
-2) containment, selecting those queries subsuming any search keywords term in the second dictionary. For instance, we removed the word porn from the second dictionary (and not from the first) because queries like food porn should not to be detected as adult. 
-The union of the queries detected by the two strategies hits on a set of blogs, whose most frequent incoming queries were manually inspected in order to detect further 351 search keywords (**file3**).
-The union of these terms with the exact match dictionary leads to a set of 5.5 K deviant queries which is used as the seed set to bootstrap the deviant graph extraction procedure as it is described in the paper. The final dictonary of adult keywords (6765 terms: monogram, bigrams, n-grams) obtained after the automatic expansion is provided here (**file4**).
 
-Format: One term for line (text file): n-grams composed by alphabetically ordered monograms separated by " " (space).
+1) exact match, selecting those queries in the query log which match exactly one search keywords in the first dictionary, 
+
+2) containment, selecting those queries subsuming any search keywords term in the second dictionary. For instance, we removed the word porn from the second dictionary (and not from the first) because queries like food porn should not to be detected as adult.
+
+The union of the queries detected by the two strategies hits on a set of blogs, whose most frequent incoming queries were manually inspected in order to detect further 351 search keywords (**file3**).
+The union of these terms with the exact match dictionary leads to a set of 5.5 K deviant queries which is used as the seed set to bootstrap the deviant graph extraction procedure as it is described in the paper. The final dictonary (n-grams composed by alphabetically ordered monograms separated by a space) of adult keywords (6765 terms: monogram, bigrams, n-grams) obtained after the automatic expansion is provided here (**file4**).
+
+Format: One term for line (text file). 
 
 ## Contact: 
+
 Mauro Coletto, CNR Pisa - IMT Lucca
+
 mauro.coletto@isti.cnr.it
+
 mauro.coletto@imtlucca.it
 
 
