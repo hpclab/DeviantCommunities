@@ -8,7 +8,7 @@ Finally, we show that it is easily possible to identify a few core users to radi
 
 ## Authors
 
-Luca Aiello - Mauro Coletto - Claudio Lucchese - Fabrizio Silvestri
+Mauro Coletto - Luca Aiello - Claudio Lucchese - Fabrizio Silvestri
 
 ## Data
 
