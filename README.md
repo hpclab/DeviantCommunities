@@ -23,7 +23,7 @@ From this initial set we manually extracted two dictionaries of respectively 515
 - containment, selecting those queries subsuming any search keywords term in the second dictionary. For instance, we removed the word porn from the second dictionary (and not from the first) because queries like food porn should not to be detected as adult.
 
 The union of the queries detected by the two strategies hits on a set of blogs, whose most frequent incoming queries were manually inspected in order to detect further 351 search keywords (**file3**).
-The union of these terms with the exact match dictionary leads to a set of 5.5 K deviant queries which is used as the seed set to bootstrap the deviant graph extraction procedure as it is described in the paper. The final dictonary (n-grams composed by alphabetically ordered monograms separated by a space) of adult keywords (6765 terms: monogram, bigrams, n-grams) obtained after the automatic expansion is provided (**file4 - final dictionary**).
+The union of these terms with the exact match dictionary leads to a set of 5.5 K deviant queries which is used as the seed set to bootstrap the deviant graph extraction procedure as it is described in the paper. The final dictonary (n-grams composed by alphabetically ordered monograms separated by a space) of adult keywords (6758 terms: monogram, bigrams, n-grams) obtained after the automatic expansion is provided (**file4 - final dictionary**).
 
 Format: One term (monogram, bigrams, n-grams) for line (text file). 
 
